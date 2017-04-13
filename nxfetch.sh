@@ -4,7 +4,8 @@
 #shopt -o -s xtrace
 
 # Define Nexus Configuration
-NEXUS_BASE=http://repository.example.com:8081/nexus
+# NEXUS_BASE=http://repository.example.com:8081/nexus
+NEXUS_BASE=http://192.168.1.215:8081/nexus
 REST_PATH=/service/local
 ART_REDIR=/artifact/maven/redirect
 
